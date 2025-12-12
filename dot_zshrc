@@ -93,7 +93,12 @@ alias gstc='git stash clear'
 alias gstd='git stash drop'
 alias gstl='git stash list'
 alias gstp='git stash pop'
-
+alias gst='git status'
+alias gss='git status --short'
+alias gsb='git status --short --branch'
+alias gp='git push'
+alias gpv='git push --verbose'
+alias gpsup='git push --set-upstream origin $(git_current_branch)'
 ##########################
 
 alias jira-backlog="jira issue list -q \"(labels in (cbi-team-polaris)) AND status NOT in ('Done', 'Rejected', 'Dev Done', 'Resolved', 'Won\'t Fix','Cancelled') AND type not in ('Epic','CBI Release','Production Change')\" --order-by status"
