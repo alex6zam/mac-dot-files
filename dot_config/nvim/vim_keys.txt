@@ -1,0 +1,952 @@
+
+
+
+n  <A          *@<Lua 135: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:5>
+                 Swap previous argument
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F          *@<Lua 1099: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:5>
+                 Swap previous function
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <K          *@<Lua 1092: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:5>
+                 Swap previous block
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  >F          *@<Lua 1093: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:5>
+                 Swap next function
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  >A          *@<Lua 1116: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:5>
+                 Swap next argument
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  >K          *@<Lua 1117: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:5>
+                 Swap next block
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [Y          *@<Lua 1185: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/aerial.lua:43>
+                 Previous symbol upwards
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [y          *@<Lua 659: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/aerial.lua:41>
+                 Previous symbol
+	Last set from Lua (run Nvim with -V1 for more details)
+o  [K          *@<Lua 1076: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous block end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  [K          *@<Lua 1033: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous block end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [K          *@<Lua 128: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous block end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  [A          *@<Lua 709: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous argument end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  [A          *@<Lua 937: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous argument end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [A          *@<Lua 1012: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous argument end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  [F          *@<Lua 961: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous function end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  [F          *@<Lua 1083: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous function end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [F          *@<Lua 1084: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous function end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  [f          *@<Lua 886: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous function start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  [f          *@<Lua 885: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous function start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [f          *@<Lua 1087: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous function start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  [a          *@<Lua 728: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous argument start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  [a          *@<Lua 838: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous argument start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [a          *@<Lua 1034: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous argument start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  [k          *@<Lua 1077: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous block start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  [k          *@<Lua 612: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous block start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [k          *@<Lua 717: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Previous block start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [[          *@<Lua 1102: /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/ftplugin/help.lua:65>
+                 Jump to previous section
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/ftplugin/help.lua (run Nvim with -V1 for more details)
+n  ]y          *@<Lua 1186: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/aerial.lua:40>
+                 Next symbol
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]Y          *@<Lua 921: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/aerial.lua:42>
+                 Next symbol upwards
+	Last set from Lua (run Nvim with -V1 for more details)
+o  ]K          *@<Lua 1094: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next block end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ]K          *@<Lua 1095: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next block end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]K          *@<Lua 697: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next block end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  ]F          *@<Lua 696: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next function end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ]F          *@<Lua 1098: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next function end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]F          *@<Lua 1080: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next function end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  ]A          *@<Lua 1078: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next argument end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ]A          *@<Lua 968: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next argument end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]A          *@<Lua 1088: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next argument end
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  ]f          *@<Lua 1081: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next function start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ]f          *@<Lua 1082: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next function start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]f          *@<Lua 1105: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next function start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  ]k          *@<Lua 1106: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next block start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ]k          *@<Lua 845: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next block start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]k          *@<Lua 1015: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next block start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  ]a          *@<Lua 1109: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next argument start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ]a          *@<Lua 1091: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next argument start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]a          *@<Lua 1089: ~/.local/share/nvim/lazy/nvim-treesitter-textobjects/lua/nvim-treesitter/textobjects/attach.lua:44>
+                 Next argument start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]]          *@<Lua 1100: /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/ftplugin/help.lua:62>
+                 Jump to next section
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/ftplugin/help.lua (run Nvim with -V1 for more details)
+x  grm         *@<Lua 1300: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:127>
+                 Shrink selection to previous named node
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  grn         *@<Lua 1153: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:59>
+                 Increment selection to named node
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  gnn         *@<Lua 1149: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:15>
+                 Start selecting nodes with nvim-treesitter
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  grc         *@<Lua 1035: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/incremental_selection.lua:59>
+                 Increment selection to surrounding scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  g==         *@<Lua 1120: /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/ftplugin/help.lua:103>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/ftplugin/help.lua (run Nvim with -V1 for more details)
+n  gO          *@<Lua 1079: /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/ftplugin/help.lua:58>
+                 Show an Outline of the current buffer
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/ftplugin/help.lua (run Nvim with -V1 for more details)
+n  q           *@<Cmd>close<CR>
+                 Close window
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+v  <Tab>       * >gv
+                 Indent line
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <NL>        * <Lua 320: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/smart-splits.lua:14>
+                 Move to below split
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  <Space>go   * <Lua 330: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:138>
+                 Git browse (open)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  <Space>/      gc
+                 Toggle comment
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>pa   * <Lua 329: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:68>
+                 Update Lazy and Mason
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>pU   * <Lua 328: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:67>
+                 Plugins Update
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>pS   * <Lua 327: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:65>
+                 Plugins Sync
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ps   * <Lua 326: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:64>
+                 Plugins Status
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ug   * <Lua 325: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:186>
+                 Toggle signcolumn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fl   * <Lua 324: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:163>
+                 Find lines
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>tv   * <Cmd>ToggleTerm size=80 direction=vertical<CR>
+                 ToggleTerm vertical split
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fb   * <Lua 323: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:170>
+                 Find buffers
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>pM   * <Cmd>MasonToolsUpdate<CR>
+                 Mason Update
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fg   * <Lua 322: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:186>
+                 Find git files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fh   * <Lua 321: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:187>
+                 Find help
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>Q    * <Cmd>confirm qall<CR>
+                 Exit AstroNvim
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ub   * <Lua 319: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:184>
+                 Toggle background
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>w    * <Cmd>w<CR>
+                 Save
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>un   * <Lua 318: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:190>
+                 Change line numbering
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uc   * <Lua 317: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/blink.lua:210>
+                 Toggle autocompletion (buffer)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>tn   * <Lua 315: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/toggleterm.lua:26>
+                 ToggleTerm node
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>pm   * <Lua 314: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/mason.lua:15>
+                 Mason Installer
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>tp   * <Lua 312: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/toggleterm.lua:40>
+                 ToggleTerm python
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>tf   * <Cmd>ToggleTerm direction=float<CR>
+                 ToggleTerm float
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>th   * <Cmd>ToggleTerm size=10 direction=horizontal<CR>
+                 ToggleTerm horizontal split
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>R    * <Lua 310: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:47>
+                 Rename file
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>e    * <Cmd>Neotree toggle<CR>
+                 Toggle Explorer
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uD   * <Lua 308: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:130>
+                 Dismiss notifications
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>C    * <Lua 306: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:72>
+                 Force close buffer
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bc   * <Lua 303: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:92>
+                 Close all buffers except current
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>SS   * <Lua 302: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:13>
+                 Save this dirsession
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bC   * <Lua 301: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:93>
+                 Close all buffers
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>St   * <Lua 300: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:16>
+                 Save this tab's session
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bl   * <Lua 299: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:95>
+                 Close all buffers to the left
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>Sd   * <Lua 298: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:17>
+                 Delete a session
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bp   * <Lua 297: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:96>
+                 Previous buffer
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fC   * <Lua 296: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:173>
+                 Find commands
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>lS   * <Lua 295: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/aerial.lua:9>
+                 Symbols outline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>br   * <Lua 294: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:98>
+                 Close all buffers to the right
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>Sf   * <Lua 293: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:20>
+                 Load a session
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bse  * <Lua 292: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:100>
+                 By extension
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bsr  * <Lua 291: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:101>
+                 By relative path
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bsp  * <Lua 290: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:102>
+                 By full path
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bsi  * <Lua 289: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:103>
+                 By buffer number
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bsm  * <Lua 287: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:104>
+                 By modification
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>SF   * <Lua 286: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:22>
+                 Load a dirsession
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>db   * <Lua 284: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:29>
+                 Toggle Breakpoint (F9)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>Ss   * <Lua 283: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:11>
+                 Save this session
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>o    * <Lua 282: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/neo-tree.lua:12>
+                 Toggle Explorer Focus
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dc   * <Lua 280: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:31>
+                 Start/Continue (F5)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dC   * <Lua 278: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:33>
+                 Conditional Breakpoint (S-F9)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uN   * <Lua 277: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:192>
+                 Toggle Notifications
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>di   * <Lua 276: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:40>
+                 Step Into (F11)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>do   * <Lua 274: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:41>
+                 Step Over (F10)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fT   * <Lua 49: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/todo-comments.lua:17>
+                 Find TODOs
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dq   * <Lua 50: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:43>
+                 Close Session
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>h    * <Lua 51: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:114>
+                 Home Screen
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dp   * <Lua 52: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:45>
+                 Pause (F6)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dr   * <Lua 268: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:46>
+                 Restart (C-F5)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fs   * <Lua 267: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:199>
+                 Find buffers/recent/files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dR   * <Lua 266: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:47>
+                 Toggle REPL
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ds   * <Lua 55: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:48>
+                 Run To Cursor
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>gb   * <Lua 56: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:147>
+                 Git branches
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>gc   * <Lua 263: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:149>
+                 Git commits (repository)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dE   * <Lua 262: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:79>
+                 Evaluate Input
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uz   * <Lua 261: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/highlight-colors.lua:9>
+                 Toggle color highlight
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dh   * <Lua 260: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:87>
+                 Debugger Hover
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ur   * <Lua 259: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/vim-illuminate.lua:13>
+                 Toggle reference highlighting (buffer)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uR   * <Lua 257: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/vim-illuminate.lua:15>
+                 Toggle reference highlighting (global)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uC   * <Lua 255: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/blink.lua:212>
+                 Toggle autocompletion (global)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bb   * <Lua 254: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/heirline.lua:11>
+                 Select buffer from tabline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>up   * <Lua 253: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:193>
+                 Toggle paste mode
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>us   * <Lua 252: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:194>
+                 Toggle spellcheck
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>xq   * <Cmd>copen<CR>
+                 Quickfix List
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uS   * <Lua 251: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:195>
+                 Toggle conceal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>b\   * <Lua 250: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/heirline.lua:25>
+                 Horizontal split buffer from tabline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ut   * <Lua 249: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:196>
+                 Toggle tabline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>xl   * <Cmd>lopen<CR>
+                 Location List
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uu   * <Lua 248: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:197>
+                 Toggle URL highlight
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>b|   * <Lua 247: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/heirline.lua:34>
+                 Vertical split buffer from tabline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uv   * <Lua 246: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:198>
+                 Toggle virtual text
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>gT   * <Lua 245: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:157>
+                 Git stash
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uV   * <Lua 244: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:202>
+                 Toggle virtual lines
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>f<CR> * <Lua 243: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:160>
+                 Resume previous search
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>gC   * <Lua 238: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:153>
+                 Git commits (current file)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dB   * <Lua 237: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:30>
+                 Clear Breakpoints
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dQ   * <Lua 236: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:44>
+                 Terminate Session (S-F5)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>u>   * <Lua 234: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:187>
+                 Toggle foldcolumn
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>Sl   * <Lua 233: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:10>
+                 Load last session
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ui   * <Lua 232: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:188>
+                 Change indent setting
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>SD   * <Lua 231: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:19>
+                 Delete a dirsession
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ul   * <Lua 230: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:189>
+                 Toggle statusline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>S.   * <Lua 229: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/resession.lua:24>
+                 Load current dirsession
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>c    * <Lua 228: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:71>
+                 Close buffer
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>u|   * <Lua 227: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:126>
+                 Toggle indent guides
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>n    * <Cmd>enew<CR>
+                 New File
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ld   * <Lua 226: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:107>
+                 Hover diagnostics
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>go   * <Lua 225: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:137>
+                 Git browse (open)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>/      gcc
+                 Toggle comment line
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>pi   * <Lua 222: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:63>
+                 Plugins Install
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>pu   * <Lua 221: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:66>
+                 Plugins Check Updates
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fc   * <Lua 220: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:172>
+                 Find word under cursor
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ua   * <Lua 219: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/autopairs.lua:9>
+                 Toggle autopairs
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>q    * <Cmd>confirm q<CR>
+                 Quit Window
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>du   * <Lua 218: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:86>
+                 Toggle Debugger UI
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ud   * <Lua 217: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:185>
+                 Toggle diagnostics
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uA   * <Lua 216: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:183>
+                 Toggle rooter autochdir
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fF   * <Lua 215: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:183>
+                 Find all files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fa   * <Lua 214: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:167>
+                 Find AstroNvim config files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fO   * <Lua 212: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:194>
+                 Find old files (cwd)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fp   * <Lua 210: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:197>
+                 Find projects
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fr   * <Lua 209: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:198>
+                 Find registers
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>dO   * <Lua 208: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:42>
+                 Step Out (S-F11)
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>bd   * <Lua 206: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/heirline.lua:17>
+                 Close buffer from tabline
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>gt   * <Lua 205: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:156>
+                 Git status
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fk   * <Lua 204: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:188>
+                 Find keymaps
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fm   * <Lua 203: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:189>
+                 Find man
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fn   * <Lua 202: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:191>
+                 Find notifications
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ft   * <Lua 201: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:200>
+                 Find themes
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uw   * <Lua 200: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:204>
+                 Toggle wrap
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fW   * <Lua 199: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:204>
+                 Find words in all files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uy   * <Lua 198: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:206>
+                 Toggle syntax highlight
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>lD   * <Lua 197: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:208>
+                 Search diagnostics
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ls   * <Lua 196: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:210>
+                 Search symbols
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>ff   * <Lua 195: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:175>
+                 Find files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>uZ   * <Lua 194: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:224>
+                 Toggle zen mode
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fo   * <Lua 193: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:192>
+                 Find old files
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>fw   * <Lua 188: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:202>
+                 Find words
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <Space>f'   * <Lua 183: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/snacks.lua:161>
+                 Find marks
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+v  <Space>dE   * <Lua 27: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:88>
+                 Evaluate Input
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  #           * <Lua 9: vim/_defaults.lua:0>
+                 :help v_#-default
+	Last set from Lua (run Nvim with -V1 for more details)
+o  %             <Plug>(MatchitOperationForward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 74
+x  %             <Plug>(MatchitVisualForward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 72
+n  %             <Plug>(MatchitNormalForward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 70
+n  &           * :&&<CR>
+                 :help &-default
+	Last set from Lua (run Nvim with -V1 for more details)
+x  *           * <Lua 4: vim/_defaults.lua:0>
+                 :help v_star-default
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <b          * <Lua 304: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:86>
+                 Move buffer tab left
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  >b          * <Lua 316: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:82>
+                 Move buffer tab right
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  @           * mode() ==# 'V' ? ':normal! @'.getcharstr().'<CR>' : '@'
+                 :help v_@-default
+	Last set from Lua (run Nvim with -V1 for more details)
+x  Q           * mode() ==# 'V' ? ':normal! @<C-R>=reg_recorded()<CR><CR>' : 'Q'
+                 :help v_Q-default
+	Last set from Lua (run Nvim with -V1 for more details)
+n  Y           * y$
+                 :help Y-default
+	Last set from Lua (run Nvim with -V1 for more details)
+o  [i          * <Lua 444: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:785>
+                 jump to top edge of scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  [i          * <Lua 443: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:785>
+                 jump to top edge of scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [i          * <Lua 442: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:785>
+                 jump to top edge of scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  [%            <Plug>(MatchitOperationMultiBackward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 82
+x  [%            <Plug>(MatchitVisualMultiBackward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 80
+n  [%            <Plug>(MatchitNormalMultiBackward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 78
+n  [w          * <Lua 285: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:112>
+                 Previous warning
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [e          * <Lua 273: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:112>
+                 Previous error
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [r          * <Lua 211: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/vim-illuminate.lua:11>
+                 Previous reference
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [<Space>    * <Lua 59: vim/_defaults.lua:0>
+                 Add empty line above cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [B          * <Lua 57: vim/_defaults.lua:0>
+                 :brewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [b          * <Lua 265: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:78>
+                 Previous buffer
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [<C-T>      * <Lua 53: vim/_defaults.lua:0>
+                  :ptprevious
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [T          * <Lua 270: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/todo-comments.lua:28>
+                 Previous TODO comment
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [t          * <Lua 272: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:134>
+                 Previous tab
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  [A          * <Lua 47: vim/_defaults.lua:0>
+                 :rewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [a          * <Lua 45: vim/_defaults.lua:0>
+                 :previous
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [<C-L>      * <Lua 43: vim/_defaults.lua:0>
+                 :lpfile
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [L          * <Lua 41: vim/_defaults.lua:0>
+                 :lrewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [l          * <Lua 39: vim/_defaults.lua:0>
+                 :lprevious
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [<C-Q>      * <Lua 37: vim/_defaults.lua:0>
+                 :cpfile
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [Q          * <Lua 35: vim/_defaults.lua:0>
+                 :crewind
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [q          * <Lua 33: vim/_defaults.lua:0>
+                 :cprevious
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [D          * <Lua 31: vim/_defaults.lua:0>
+                 Jump to the first diagnostic in the current buffer
+	Last set from Lua (run Nvim with -V1 for more details)
+n  [d          * <Lua 29: vim/_defaults.lua:0>
+                 Jump to the previous diagnostic in the current buffer
+	Last set from Lua (run Nvim with -V1 for more details)
+n  \           * <Cmd>split<CR>
+                 Horizontal Split
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  ]i          * <Lua 447: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:785>
+                 jump to bottom edge of scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ]i          * <Lua 446: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:785>
+                 jump to bottom edge of scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]i          * <Lua 445: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:785>
+                 jump to bottom edge of scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+o  ]%            <Plug>(MatchitOperationMultiForward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 83
+x  ]%            <Plug>(MatchitVisualMultiForward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 81
+n  ]%            <Plug>(MatchitNormalMultiForward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79
+n  ]e          * <Lua 288: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:112>
+                 Next error
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]w          * <Lua 279: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:112>
+                 Next warning
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]r          * <Lua 213: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/vim-illuminate.lua:9>
+                 Next reference
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]<Space>    * <Lua 60: vim/_defaults.lua:0>
+                 Add empty line below cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]B          * <Lua 58: vim/_defaults.lua:0>
+                 :blast
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]b          * <Lua 264: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:74>
+                 Next buffer
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]<C-T>      * <Lua 54: vim/_defaults.lua:0>
+                 :ptnext
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]T          * <Lua 269: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/todo-comments.lua:27>
+                 Next TODO comment
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]t          * <Lua 271: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:133>
+                 Next tab
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  ]A          * <Lua 48: vim/_defaults.lua:0>
+                 :last
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]a          * <Lua 46: vim/_defaults.lua:0>
+                 :next
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]<C-L>      * <Lua 44: vim/_defaults.lua:0>
+                 :lnfile
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]L          * <Lua 42: vim/_defaults.lua:0>
+                 :llast
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]l          * <Lua 40: vim/_defaults.lua:0>
+                 :lnext
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]<C-Q>      * <Lua 38: vim/_defaults.lua:0>
+                 :cnfile
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]Q          * <Lua 36: vim/_defaults.lua:0>
+                 :clast
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]q          * <Lua 34: vim/_defaults.lua:0>
+                 :cnext
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]D          * <Lua 30: vim/_defaults.lua:0>
+                 Jump to the last diagnostic in the current buffer
+	Last set from Lua (run Nvim with -V1 for more details)
+n  ]d          * <Lua 28: vim/_defaults.lua:0>
+                 Jump to the next diagnostic in the current buffer
+	Last set from Lua (run Nvim with -V1 for more details)
+o  ai          * <Lua 441: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:780>
+                 full scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ai          * <Lua 440: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:780>
+                 full scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  a%            <Plug>(MatchitVisualTextObject)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 86
+o  g%            <Plug>(MatchitOperationBackward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 75
+x  g%            <Plug>(MatchitVisualBackward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 73
+n  g%            <Plug>(MatchitNormalBackward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71
+n  gl          * <Lua 311: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/_astrocore_mappings.lua:130>
+                 Hover diagnostics
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  gco         * o<Esc>Vcx<Esc><Cmd>normal gcc<CR>fxa<BS>
+                 Add Comment Below
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  gcO         * O<Esc>Vcx<Esc><Cmd>normal gcc<CR>fxa<BS>
+                 Add Comment Above
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  gO          * <Lua 21: vim/_defaults.lua:0>
+                 vim.lsp.buf.document_symbol()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  gri         * <Lua 20: vim/_defaults.lua:0>
+                 vim.lsp.buf.implementation()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  grr         * <Lua 19: vim/_defaults.lua:0>
+                 vim.lsp.buf.references()
+	Last set from Lua (run Nvim with -V1 for more details)
+x  gra         * <Lua 18: vim/_defaults.lua:0>
+                 vim.lsp.buf.code_action()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  gra         * <Lua 17: vim/_defaults.lua:0>
+                 vim.lsp.buf.code_action()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  grn         * <Lua 16: vim/_defaults.lua:0>
+                 vim.lsp.buf.rename()
+	Last set from Lua (run Nvim with -V1 for more details)
+o  gc          * <Lua 15: vim/_defaults.lua:0>
+                 Comment textobject
+	Last set from Lua (run Nvim with -V1 for more details)
+n  gcc         * <Lua 14: vim/_defaults.lua:0>
+                 Toggle comment line
+	Last set from Lua (run Nvim with -V1 for more details)
+x  gc          * <Lua 13: vim/_defaults.lua:0>
+                 Toggle comment
+	Last set from Lua (run Nvim with -V1 for more details)
+n  gc          * <Lua 12: vim/_defaults.lua:0>
+                 Toggle comment
+	Last set from Lua (run Nvim with -V1 for more details)
+x  gx          * <Lua 11: vim/_defaults.lua:0>
+                 Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
+	Last set from Lua (run Nvim with -V1 for more details)
+n  gx          * <Lua 10: vim/_defaults.lua:0>
+                 Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
+	Last set from Lua (run Nvim with -V1 for more details)
+o  ii          * <Lua 439: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:780>
+                 inner scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  ii          * <Lua 436: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:780>
+                 inner scope
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  j           * v:count == 0 ? 'gj' : 'j'
+                 Move cursor down
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  j           * v:count == 0 ? 'gj' : 'j'
+                 Move cursor down
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+x  k           * v:count == 0 ? 'gk' : 'k'
+                 Move cursor up
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  k           * v:count == 0 ? 'gk' : 'k'
+                 Move cursor up
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  |           * <Cmd>vsplit<CR>
+                 Vertical Split
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-jump-prev * <Lua 1031: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:57>
+                 LuaSnip: Jump to the previous node
+	Last set from ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-jump-next * <Lua 1166: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:54>
+                 LuaSnip: Jump to the next node
+	Last set from ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-prev-choice * <Lua 1143: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:51>
+                 LuaSnip: Change to the previous choice from the choiceNode
+	Last set from ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-next-choice * <Lua 917: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:48>
+                 LuaSnip: Change to the next choice from the choiceNode
+	Last set from ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-expand-snippet * <Lua 474: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:45>
+                 LuaSnip: Expand the current snippet
+	Last set from ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+s  <Plug>luasnip-expand-or-jump * <Lua 1025: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:42>
+                 LuaSnip: Expand or jump in the current snippet
+	Last set from ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+   <Plug>luasnip-expand-repeat * <Lua 1096: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:35>
+                 LuaSnip: Repeat last node expansion
+	Last set from ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+n  <Plug>luasnip-delete-check * <Lua 1086: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:28>
+                 LuaSnip: Removes current snippet from jumplist
+	Last set from ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua (run Nvim with -V1 for more details)
+x  <M-i>       * <Lua 1003: ~/.local/share/nvim/lazy/vim-illuminate/lua/illuminate.lua:301>
+	Last set from Lua (run Nvim with -V1 for more details)
+o  <M-i>       * <Lua 813: ~/.local/share/nvim/lazy/vim-illuminate/lua/illuminate.lua:301>
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <M-p>       * <Lua 814: ~/.local/share/nvim/lazy/vim-illuminate/lua/illuminate.lua:294>
+                 Move to previous reference
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <M-n>       * <Lua 831: ~/.local/share/nvim/lazy/vim-illuminate/lua/illuminate.lua:287>
+                 Move to next reference
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <Plug>PlenaryTestFile * :lua require('plenary.test_harness').test_file(vim.fn.expand("%:p"))<CR>
+	Last set from ~/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim line 9
+v  <Plug>BlinkCmpDotRepeatHack * <Lua 430: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/text_edits.lua:309>
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <Plug>BlinkCmpDotRepeatHack * <Lua 375: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/text_edits.lua:309>
+	Last set from Lua (run Nvim with -V1 for more details)
+x  <Plug>(MatchitVisualTextObject)   <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67
+o  <Plug>(MatchitOperationMultiForward) * :<C-U>call matchit#MultiMatch("W",  "o")<CR>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64
+o  <Plug>(MatchitOperationMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "o")<CR>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 63
+x  <Plug>(MatchitVisualMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>m'gv``
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 62
+x  <Plug>(MatchitVisualMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>m'gv``
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61
+n  <Plug>(MatchitNormalMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60
+n  <Plug>(MatchitNormalMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59
+o  <Plug>(MatchitOperationBackward) * :<C-U>call matchit#Match_wrapper('',0,'o')<CR>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56
+o  <Plug>(MatchitOperationForward) * :<C-U>call matchit#Match_wrapper('',1,'o')<CR>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 55
+x  <Plug>(MatchitVisualBackward) * :<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54
+x  <Plug>(MatchitVisualForward) * :<C-U>call matchit#Match_wrapper('',1,'v')<CR>:if col("''") != col("$") | exe ":normal! m'" | endif<CR>gv``
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52
+n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51
+n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
+	Last set from /opt/homebrew/Cellar/neovim/0.11.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50
+n  <F29>       * <Lua 313: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:23>
+                 Debugger: Restart
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-Left>    * <Lua 309: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/smart-splits.lua:19>
+                 Resize split left
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-Up>      * <Lua 307: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/smart-splits.lua:17>
+                 Resize split up
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-Down>    * <Lua 305: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/smart-splits.lua:18>
+                 Resize split down
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-S>       * <Cmd>silent! update! | redraw<CR>
+                 Force write
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-Q>       * <Cmd>q!<CR>
+                 Force quit
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-'>       * <Cmd>execute v:count . "ToggleTerm"<CR>
+                 Toggle terminal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-K>       * <Lua 275: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/smart-splits.lua:15>
+                 Move to above split
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F17>       * <Lua 258: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:14>
+                 Debugger: Stop
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F6>        * <Lua 256: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:24>
+                 Debugger: Pause
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F9>        * <Lua 242: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:25>
+                 Debugger: Toggle Breakpoint
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F10>       * <Lua 241: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:26>
+                 Debugger: Step Over
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F11>       * <Lua 240: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:27>
+                 Debugger: Step Into
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F23>       * <Lua 239: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:28>
+                 Debugger: Step Out
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-H>       * <Lua 235: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/smart-splits.lua:13>
+                 Move to left split
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F5>        * <Lua 224: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:13>
+                 Debugger: Start
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F21>       * <Lua 223: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/dap.lua:16>
+                 Debugger: Conditional Breakpoint
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <F7>        * <Cmd>execute v:count . "ToggleTerm"<CR>
+                 Toggle terminal
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-Right>   * <Lua 207: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/smart-splits.lua:20>
+                 Resize split right
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+n  <C-W><C-D>    <C-W>d
+                 Show diagnostics under the cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <C-W>d      * <Lua 32: vim/_defaults.lua:0>
+                 Show diagnostics under the cursor
+	Last set from Lua (run Nvim with -V1 for more details)
+v  <S-Tab>     * <gv
+                 Unindent line
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)
+s  <C-S>       * <Lua 23: vim/_defaults.lua:0>
+                 vim.lsp.buf.signature_help()
+	Last set from Lua (run Nvim with -V1 for more details)
+n  <C-L>       * <Lua 281: ~/.local/share/nvim/lazy/AstroNvim/lua/astronvim/plugins/smart-splits.lua:16>
+                 Move to right split
+	Last set from ~/.config/nvim/init.lua (run Nvim with -V1 for more details)

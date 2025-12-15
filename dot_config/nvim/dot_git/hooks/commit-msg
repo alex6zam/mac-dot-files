@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+import re
+import sys
+import os
+from subprocess import check_output
+
+examples = """
+Example:
+
++ 61c8ca9 fix: navbar not responsive on mobile
++ 479c48b test: prepared test cases for user authentication
++ a992020 chore: moved to semantic versioning
++ b818120 fix: button click even handler firing twice
++ c6e9a97 fix: login page css
++ dfdc715 feat(auth): added social login using twitter
+
+  Please note that multi-line commit message are supported, and only the
+  first line will be considered as the "summary" of the commit message. So
+  tags, and other rules only applies to the summary.  The body of the commit
+  message will be displayed in the changelog without reformatting.
+"""
+debug = False
+
+
+def ValidatePattern(filename, pattern):
+    fopen = open(filename, 'r').read()
+    if debug:
+        print(fopen)
+    m = re.match(pattern, fopen)
+    if debug:
+        print("Match", m)
+    if m == None:
+        print("\nCOMMIT FAILED!")
+        print("\nPlease enter commit message in the conventional format and try to commit again.")
+        print("\n" + examples)
+        sys.exit(1)
+
+
+def AddJiraID(filename):
+
+    branch = check_output(['git', 'symbolic-ref', '--short', 'HEAD']).strip()
+    regex = '(HOP-\d+)-(\w+)'
+
+    comp = re.match(regex, branch.decode())
+
+    if comp:
+        issue = re.match(regex,  branch.decode()).group(1)
+        with open(filename, 'r+') as fh:
+            commit_msg = fh.read()
+            fh.seek(0, 0)
+            fh.write('%s [%s]' % (commit_msg.strip(), issue))
+    elif branch != 'master' and branch != 'dev'and branch != 'main':
+        print('Incorrect branch name')
+        sys.exit(1)
+
+
+
+def main():
+
+    pattern = r'(build|ci|docs|feat|fix|perf|refactor|style|test|chore|revert)(\([\w\-]+\))?:\s.*'
+    filename = sys.argv[1]
+    ValidatePattern(filename, pattern)
+#    AddJiraID(filename)
+
+
+if __name__ == "__main__":
+    main()
