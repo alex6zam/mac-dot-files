@@ -1,0 +1,935 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJWXJ2NDJKZUFuTG93RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRFd016QXhOREEyTlRkYUZ3MHpOVEV3TWpneE5ERXhOVGRhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNmMzNJcnFTRm5pTEplRHZCeVkrcjVKamkvMmpvZ1lTNFZUdDh4eUxvWTFjVmM2cnN4RzNCc0Y5SXYKWDdGTFBHQzJMTWNWMjd4TEl0SUFhNHd6MmpLbzdiRXptVi9IdmVkeXRPMGVSV1hTdmdQNWZUVnhZQmVTdXRaVwo4dHFLQzUwM0xSNzhsNnpkUm43c01hWnIwY05GYmNGS0tNbzl6dzZ1aTRUeTYrK2gyVFZ2ZzA5aTNHdUtrRE9WCnF6NEpTTmtaMzI0dklaME1KVlh4Skx6UnJWY3dWdVVhZHluVUNkM0V2b1lZb0M4YUE0bUpxQlVsbFIxREtRSk4KallOYWpsK3FIYmFYckVPRzN1aEVxRStMVks4MWVkK1VnNWJWSVVQWVB4cWljMnRUNnlRZDNOcEd0bVk1eE9uTApRSjhVbW1lcG5HR2tTSkR4ckZMYW5NUEtIVEhKQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTMlJHZGdTaXUzT1A3dHU1cCt5QVBkRGNncXlEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVZhUzUvNGtYLwo1eVp2a1pBeWpVaExHcnJDbGFDNkdNS1p4cGlrWjQ0ZjQ5V3M3TGNSSHlkL083TUpsRkEzTkkzQ0xldW00Z2FYCitmc1lIaENTNnlFV09iam0vMEI4RFlQTENXV3I0bHlqOFBoTThPb2QwbHc5Y2JwQXJxdzlRUms5bWRqQlMweG8KV1FXelY1Qkd6c1E0SmZqc1JDSC93aWFJVzNqVGVRTi8waUlxMjhSTHc5MXdzYWNpQmtmOWt4TkhHVmJpRnJLVwpsMXpRTTM1NzR5ZmkwQzErZURZdXNmblNhUWh1YWlsZGNub3BzTS9oMWQvdXhSWW1sK0NxYUNLUDJLSm12bmh4CnhuR2wwVkhFMWo1KzIzV2oxMjhzSzdyYWxmS1V1ZlZYRGhsNi9WMmpNNXNTeDNtVWI2bEdXWFR2ZE9MWE02RWUKanNQRUJZWk4vOHRPCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://127.0.0.1:64260
+  name: kind-kind
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJkakNDQVIyZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWpNU0V3SHdZRFZRUUREQmhyTTNNdGMyVnkKZG1WeUxXTmhRREUzTURnMU1ETXpOell3SGhjTk1qUXdNakl4TURneE5qRTJXaGNOTXpRd01qRTRNRGd4TmpFMgpXakFqTVNFd0h3WURWUVFEREJock0zTXRjMlZ5ZG1WeUxXTmhRREUzTURnMU1ETXpOell3V1RBVEJnY3Foa2pPClBRSUJCZ2dxaGtqT1BRTUJCd05DQUFRNjloQWpzMDBreHVnRWltdzUyYTVvMXNGWG1ndFo3VGJWb1AwVmpyOUIKNU9acXpiOXVXK2ZaUjRYcUNwa3dGdU5wL2JwMzVqSUdSQURmR3M1VDZZdlpvMEl3UURBT0JnTlZIUThCQWY4RQpCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVWp1M052VElUUDZqTzRkNlVmRkUvCkJhNkRhSVF3Q2dZSUtvWkl6ajBFQXdJRFJ3QXdSQUlnUDkzVmVjOW9ZcFcyOWZhK1QyazdsNlgyckZGK1RWbFYKSmE4ZUtpSnM5YllDSUY1WW1wNmFrTC9BMVNYdWtEMWM2UEswa21Rb2JHQjlrRmp3ZzdyS2t0SzMKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://127.0.0.1:26443
+  name: orbstack
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUQxekNDQXIrZ0F3SUJBZ0lSQVBPTWNoSTJLcmtJQzEyZ0dYQXRKKzh3RFFZSktvWklodmNOQVFFTEJRQXcKZ1lReEp6QWxCZ05WQkFvVEhuUmxiR1Z3YjNKMExucHBjQzFrWlhZdVlYQndjM1ZzWVhSbExtTnZiVEVuTUNVRwpBMVVFQXhNZWRHVnNaWEJ2Y25RdWVtbHdMV1JsZGk1aGNIQnpkV3hoZEdVdVkyOXRNVEF3TGdZRFZRUUZFeWN6Ck1qTTNNekUyTXpneE56TTBPVFV3TVRNM016RTNOelExTVRBeE5UTTFNelk1TnpJM09ETXdIaGNOTWpJeE1USXkKTVRnd09USXpXaGNOTXpJeE1URTVNVGd3T1RJeldqQ0JoREVuTUNVR0ExVUVDaE1lZEdWc1pYQnZjblF1ZW1sdwpMV1JsZGk1aGNIQnpkV3hoZEdVdVkyOXRNU2N3SlFZRFZRUURFeDUwWld4bGNHOXlkQzU2YVhBdFpHVjJMbUZ3CmNITjFiR0YwWlM1amIyMHhNREF1QmdOVkJBVVRKek15TXpjek1UWXpPREUzTXpRNU5UQXhNemN6TVRjM05EVXgKTURFMU16VXpOamszTWpjNE16Q0NBU0l3RFFZSktvWklodmNOQVFFQkJRQURnZ0VQQURDQ0FRb0NnZ0VCQUxjUgpsa214QjB0dHEwQ01mNnBBdW44ZFFDMWRsQnVpdDJjRmZsL1lqbTRqejJ6RXVDcWlzbjArbEJLZHlEcS8rNGVqCjlSWTIwenNheURUbnVYdGhHTjhjbnJLdjY4anVLVkhzUThLcWhVaVhONGloRlhZbGtNNjRoNjFlUytTOHVkdkIKcXh5ZFRISFNsb1VYYnppcmdUYXA1a3NCZjdKNnRDVkh4VHZqRDZvTnRBcjlZRVEyenpZMG9XYk50K2YzZzZDQQp1ZC9xRTRINFh0d3JySkgzOTFWVldhNHBxZzhVajVkakVFZzM2L203RGFMbGNFWXpGVDFxTHBocHpvQWZyNnVkCnZ2U0VIRGFJV29oUERSUGxJRmx5SDdOTWtLK2NIVGFmdzRyNjhMbUUwZWU1anYySHIyaHB6cStycHB3T0dad08Kb2NFWkJWSmFBenorSVhwUHIzRUNBd0VBQWFOQ01FQXdEZ1lEVlIwUEFRSC9CQVFEQWdHbU1BOEdBMVVkRXdFQgovd1FGTUFNQkFmOHdIUVlEVlIwT0JCWUVGTGJYd2ZTZWthc3BOaHlvYVMwSElscUZQTkM0TUEwR0NTcUdTSWIzCkRRRUJDd1VBQTRJQkFRQWcvQjdkQ0J4dUU4ZXN0YWMza295ZEVOSmVhUll6dnJBSW1uZHJJdmRQcDIvc0QyVjIKZDlZV3BuKzVkSmkvZjkvcmpweDhrdSt0TlZkMm1pQSt2U0s5Q0JUbVVDWWVKZ0d3MFpNWkFWbEtONjlOcFFIawpuV0xCaTEzWVVCS1MzZzUxeVZuUERiZmIvYXF5TEw1bnVlSVdJZlZWb0cxN0Z3eHVZY09raTJGVU5QSWNSeGlnCmlqUWY1T3NhTWxNNU1lbFl3Rk0rKzl0ZFNCR2NuNDF0RmwvcHdFK0FkVXM3YVRRVURLTG1URXBYaTZNMDBIWSsKU2dtbUQ0aGNHekJRLzRQejNUeTgweHZmTzZZc1l6ZkNKNTIxNXhSaDlxTi9XQVBrckpUZ1J4MVh3RUtTemQySQpyM3NHZmYzY29QKzdTMGVHbTVyQWNoYXhFYWxIaXVONFNOQ0cKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://teleport.zip-dev.appsulate.com:443
+    tls-server-name: kube-teleport-proxy-alpn.teleport.zip-dev.appsulate.com
+  name: teleport.zip-dev.appsulate.com
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUQxakNDQXI2Z0F3SUJBZ0lRQnd1aVc5eUYwUEIyWkpvQk5CNSttREFOQmdrcWhraUc5dzBCQVFzRkFEQ0IKaERFb01DWUdBMVVFQ2hNZmRHVnNaWEJ2Y25RdWVtbHdMWEJ5YjJRdVlYQndjM1ZzWVhSbExtTnZiVEVvTUNZRwpBMVVFQXhNZmRHVnNaWEJ2Y25RdWVtbHdMWEJ5YjJRdVlYQndjM1ZzWVhSbExtTnZiVEV1TUN3R0ExVUVCUk1sCk9UTTJOVEF3TkRJMk5ETXdOVE0xTURVMk5UVTROalkzTXpZME9UQTRNamcxT1RFMk1EQWVGdzB5TWpFeU1UUXgKTURReU1UZGFGdzB6TWpFeU1URXhNRFF5TVRkYU1JR0VNU2d3SmdZRFZRUUtFeDkwWld4bGNHOXlkQzU2YVhBdApjSEp2WkM1aGNIQnpkV3hoZEdVdVkyOXRNU2d3SmdZRFZRUURFeDkwWld4bGNHOXlkQzU2YVhBdGNISnZaQzVoCmNIQnpkV3hoZEdVdVkyOXRNUzR3TEFZRFZRUUZFeVU1TXpZMU1EQTBNalkwTXpBMU16VXdOVFkxTlRnMk5qY3oKTmpRNU1EZ3lPRFU1TVRZd01JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBdjEreQpDdzZwcDB4SUI3K1hvMDFNcStqcnlyU0FhS0VrV3Vkd1dkVVFwSHhMZlk4anpuUms1SVZZTlVvRWp4ZmJJUUNvCnBpUFJSZTJyU2VHZE9mN0NaOGh6MTRWdVl2b0xMZzBRK2dyUkZ4NWlCTjVsNTVxd3JETXNJT2dGZXpLL0t0U24KL2tzVVFvbmRodDEwcDJhQWR4dS90Q3VCSWpjazNOZ3JUaVRYN21tdzVaQTVCcGtjMmxNZWRjdTZQdm5uUkIyNAp2dXhxQmhOSk15cGdFaTZxNXBCMkZGOWV2ODJudG1SQzdEYzJDbndOdCszaDRuc21jaTh3R0ZMVUdmaGtjWXhxCkhGV0N5WE56aEcyOE52Z1BOWjB4cGNPRkpsMlFUU3lWbXU2SFUwNlVUWnZ6MmlhVEJPTC8zM0FCdzhBWTJTOEQKV21JNmRwcVRTL0Y5N2ZpY2RRSURBUUFCbzBJd1FEQU9CZ05WSFE4QkFmOEVCQU1DQWFZd0R3WURWUjBUQVFILwpCQVV3QXdFQi96QWRCZ05WSFE0RUZnUVUveHpBL0FEZFVwUDBPUEhxRW9nNVhPN01iZDh3RFFZSktvWklodmNOCkFRRUxCUUFEZ2dFQkFGQm5icDNoNWdWSVhXNk1LN1VUZlAwbG92c3o5Zk5mNkR6SkVuaXo4Q0ZOKzR3V3h6aGkKSlBkU2JuSksyK04vU3liRVR3Uzg3ZEJGSjNwaEpDTm5uNHB0V1RtS0grTUFLVGp6WFJMRUR2aHpqeFR4V2JpVgpEVzlOVHNicDU3M0cyZ0o1VEJWV3E2M28vMFdZYk4vQ1J2R2FWS2xGeDVocUVPaDlCOHM4dmlFN2t1ZlVYaTIrCjhKcTg3N0dqamZiWmhNMHlGNVJBUFlDK2lYMmYwbStGL2F1cW0yd1lpTFYrOHovTS9OTHUvUmYrWWNUTmJkc24KRTJGMFM5dzBIbW5McU1tclcybmQ4dTk0cHRGakNoMkFlNVhiUCtHQ0lDRVloRzNrWGxsNndDMGZPVFlnRVlIWgp3ZVNVNlNoeitrTnQ1eG1Ua3FnZzMvOGtsWFlSVUxwNm1zdz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://teleport.zip-prod.appsulate.com:443
+    tls-server-name: kube-teleport-proxy-alpn.teleport.zip-prod.appsulate.com
+  name: teleport.zip-prod.appsulate.com
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURyRENDQXBTZ0F3SUJBZ0lRQVJNcklWUEw5R2JWam5QYnJ3bFkzekFOQmdrcWhraUc5dzBCQVFzRkFEQncKTVI0d0hBWURWUVFLRXhWMGNIUXVZMkpwTG1Gd2NITjFiR0YwWlM1amIyMHhIakFjQmdOVkJBTVRGWFJ3ZEM1agpZbWt1WVhCd2MzVnNZWFJsTG1OdmJURXVNQ3dHQTFVRUJSTWxNVFF5T0RjMU5qUXlNREUzTXpJeE9UVXdNVE15Ck9EYzBOek14TVRnMk1qazVOVEUyTnpBZUZ3MHlOREV4TWpFeE1UTXdNREJhRncwek5ERXhNVGt4TVRNd01EQmEKTUhBeEhqQWNCZ05WQkFvVEZYUndkQzVqWW1rdVlYQndjM1ZzWVhSbExtTnZiVEVlTUJ3R0ExVUVBeE1WZEhCMApMbU5pYVM1aGNIQnpkV3hoZEdVdVkyOXRNUzR3TEFZRFZRUUZFeVV4TkRJNE56VTJOREl3TVRjek1qRTVOVEF4Ck16STROelEzTXpFeE9EWXlPVGsxTVRZM01JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0MKQVFFQXd6MHhPaVQ0aVVJWE9VRWtBVXh4SE0wdTB5ZUdUeVUrTEszR1NMSU15aVFVUEo0QXBHRmV0N1ZhaVB5SwpDVnBQb2pWeklTaXBzSjlaOFU2dmpwMlZUT0tkNVZvOXdQbDFnNmRSODFpa3VYT3dudWNRMFU1SDVLR05CakhBCkl2WWg2eFdPQ2lmWWxUTm9RN3R4MVVodytyNDQvckFUdTRyNmo5RjRlTFpWOW9oN0czZWM0WHowUkxZVzJoenQKeExPN3BOR3Mwa2RZYlB5b05taHMwS2dvQW9zcFMzREI1bXdxSmE5K2VmQVkyTlRlNkU0UGNaYmV0a2ZIaHdDMgpOYzV3RVVTTnhFRzN5OEFMaTFZR0p4VjNpT2Y2Rkg4MXFTTVFxMjV2bnBhcjZBUW41NFlwYjJzWGRlRWRjdjlzCnhOT1l3OHkrMDdGMGE1LzJsYkhhMFllNXRRSURBUUFCbzBJd1FEQU9CZ05WSFE4QkFmOEVCQU1DQWFZd0R3WUQKVlIwVEFRSC9CQVV3QXdFQi96QWRCZ05WSFE0RUZnUVVwbUo3cnJTS3ZmejM5VjgyYzF5OG4yNHIrM3N3RFFZSgpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFJSDNhajhYQjNteGdSdngvNzM2Wkd2VEh0RE0vaVRXb1BzcXovYVRCdDc3ClJWZ1hPMVRsaGJzUlpBR2RndCt1NWtuTmdzUjFXSU9lWWtLQTY3MXU2dHQzY2FzazY2aGVRWWZ4Njd3UGNWc3YKQlJkZURkVUhxazZyRFJIeG1PT28ydkE0bTdkL0R1WXp3YjFRQ2huMVI1VkFYMTloNWFOeGNRd1ZhaU9oZ09xYwpyVlpvQjlDOXZ4SCtQTG9GdWFiS3ltRnd2aWMzWnpudmNFNitQNFRUdVEvaFVBNDdpYUw2UnR1NDhIQTZ5RXVYCkxWajQyWU5KVG9xUWl3OXYxYTVpRkJ3dWpZRW9Vb09Gb1FNTlBjdWEvUXZSMVpDNXZqb3dTRVhGaWY1NllGSWwKZjVqWUZDR0VNbFZ4WXhxUTZlZ3FUSm5KV0F1MDdVMnNEeHhETzlFSGxhOD0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://tpt.cbi.appsulate.com:443
+    tls-server-name: kube-teleport-proxy-alpn.tpt.cbi.appsulate.com
+  name: tpt.cbi.appsulate.com
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURxVENDQXBHZ0F3SUJBZ0lSQUk2cU1WVEVlTGFSZm5QN2lUMFp3NzR3RFFZSktvWklodmNOQVFFTEJRQXcKYmpFY01Cb0dBMVVFQ2hNVGRIQjBMbU5pYVM1blpYUm9iM0JwTG1OdmJURWNNQm9HQTFVRUF4TVRkSEIwTG1OaQphUzVuWlhSb2IzQnBMbU52YlRFd01DNEdBMVVFQlJNbk1UZzVOak0wTURZMk5ESXhORFV3TVRrNU9UVTNNVGN5Ck9UZ3pNVGd4TURjeE56STVOVGs0TUI0WERUSTBNRGN5TlRFME1Ua3pPRm9YRFRNME1EY3lNekUwTVRrek9Gb3cKYmpFY01Cb0dBMVVFQ2hNVGRIQjBMbU5pYVM1blpYUm9iM0JwTG1OdmJURWNNQm9HQTFVRUF4TVRkSEIwTG1OaQphUzVuWlhSb2IzQnBMbU52YlRFd01DNEdBMVVFQlJNbk1UZzVOak0wTURZMk5ESXhORFV3TVRrNU9UVTNNVGN5Ck9UZ3pNVGd4TURjeE56STVOVGs0TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUEKdkswcWIwRVNTT09KMHN6S0Y4bUxldk5yT3JZaUd3UHhHclVZOEgzTm1odFdndmdBemEzMXpoeHp0V20xS1hHSwpXK1U4Q09tck9RZjhHYWNjSDRNcmVDK2xrTFVJVkNYaE5Cc0U4RWNjWVZIRnowNHF6aTlMVTRMOEdqWmNVdWlNCmdlL2ZiVnpNV1lGS0JZS3VwSTFMTnE4UWN1K0E5THFZQUpQYlhmeVFiTWdDK2ZvWS9nVE90UFdxRjJWTi9IdTgKYnIxaEtwczJjNGdUNzdiaGMxNUFkNVlscDZmaFYzOS9Hd1FmYk5FU0FQanloakZsVUhVZ2N2U05NV1VpTXV0MgoyZFJCN016YTQ4NTZ3RFYwS3JBWnVOT3JwUkpkRjdiRnBxTnJiOUQ2ZWtZSm1SYXhOTFlQSHM0TXNseU9hOVhRCkRTdDhxbm81MFV0UC9OMk5mL3VBbVFJREFRQUJvMEl3UURBT0JnTlZIUThCQWY4RUJBTUNBYVl3RHdZRFZSMFQKQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVS9XRHRXKzg4cHppZHRvd2taSU1MV0Y0TzZ5VXdEUVlKS29aSQpodmNOQVFFTEJRQURnZ0VCQUhBYU5PWkVncU9zWUdGUzNHa2sxbzJyUms2ZDdCbmZSWTVXODA4NlI1L2lUSW9rCktlSnpwTGovMktLZ3pZd01aVmNHVmtNOUpiU0VxSnhDeEpJRnRld3Znb2xyMHlHNXBXZ2N2TjNTKzVHVnppajgKL2lIQjdEajJtVzNKVUZrbStjNDh5R0VVL3BVL3UwcmVkLytWU2NxbjFjNTV0RHdUM3IzYVJ0M3lyZEdWSlhkcAp0NXl0MUdXNkkzSDVudmp2ZjBFK1BGbXVYQ2FObFV6UWRiREtCUG5tSlo2MnVlViswS1F3YTRTeFh2NzlvdUdDCjJlNDlXOU0yOVhtcFVZWWk1ZXVpM0MwMjNuNWtRWmJMaHhxTGpQaThMUTFhV3ZtUGkyaktJNVBQdGY4ZzNQcUMKVG5UbDNnOGxWR0hyZHNHU0NYbjFWcmF5SW4vZTRwZXBaYVJSSGtvPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://tpt.cbi.gethopi.com:443
+    tls-server-name: kube-teleport-proxy-alpn.tpt.cbi.gethopi.com
+  name: tpt.cbi.gethopi.com
+contexts:
+- context:
+    cluster: kind-kind
+    user: kind-kind
+  name: kind-kind
+- context:
+    cluster: orbstack
+    user: orbstack
+  name: orbstack
+- context:
+    cluster: teleport.zip-dev.appsulate.com
+    extensions:
+    - extension: capi-dev-bom5-1
+      name: teleport.kube.name
+    user: teleport.zip-dev.appsulate.com-capi-dev-bom5-1
+  name: teleport.zip-dev.appsulate.com-capi-dev-bom5-1
+- context:
+    cluster: teleport.zip-dev.appsulate.com
+    extensions:
+    - extension: capi-dev-fra5-1
+      name: teleport.kube.name
+    user: teleport.zip-dev.appsulate.com-capi-dev-fra5-1
+  name: teleport.zip-dev.appsulate.com-capi-dev-fra5-1
+- context:
+    cluster: teleport.zip-dev.appsulate.com
+    extensions:
+    - extension: capi-stg-bom5-1
+      name: teleport.kube.name
+    user: teleport.zip-dev.appsulate.com-capi-stg-bom5-1
+  name: teleport.zip-dev.appsulate.com-capi-stg-bom5-1
+- context:
+    cluster: teleport.zip-dev.appsulate.com
+    extensions:
+    - extension: capi-stg-fra5-1
+      name: teleport.kube.name
+    user: teleport.zip-dev.appsulate.com-capi-stg-fra5-1
+  name: teleport.zip-dev.appsulate.com-capi-stg-fra5-1
+- context:
+    cluster: teleport.zip-dev.appsulate.com
+    extensions:
+    - extension: dev-tools-pdx
+      name: teleport.kube.name
+    user: teleport.zip-dev.appsulate.com-dev-tools-pdx
+  name: teleport.zip-dev.appsulate.com-dev-tools-pdx
+- context:
+    cluster: teleport.zip-dev.appsulate.com
+    extensions:
+    - extension: tools
+      name: teleport.kube.name
+    user: teleport.zip-dev.appsulate.com-tools
+  name: teleport.zip-dev.appsulate.com-tools
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-bom5-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-bom5-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-bom5-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-bom5-3
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-bom5-3
+  name: teleport.zip-prod.appsulate.com-capi-prod-bom5-3
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-bom5-5
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-bom5-5
+  name: teleport.zip-prod.appsulate.com-capi-prod-bom5-5
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-bom5-7
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-bom5-7
+  name: teleport.zip-prod.appsulate.com-capi-prod-bom5-7
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-cle2-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-cle2-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-cle2-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-cpt4-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-cpt4-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-cpt4-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-dxb1-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-dxb1-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-dxb1-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-fra5-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-fra5-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-fra5-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-hkg3-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-hkg3-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-hkg3-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-hyd2-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-hyd2-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-hyd2-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-hyd2-3
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-hyd2-3
+  name: teleport.zip-prod.appsulate.com-capi-prod-hyd2-3
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-hyd2-5
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-hyd2-5
+  name: teleport.zip-prod.appsulate.com-capi-prod-hyd2-5
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-lon4-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-lon4-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-lon4-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-mel2-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-mel2-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-mel2-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-osa1-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-osa1-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-osa1-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-par3-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-par3-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-par3-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-pdx2-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-pdx2-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-pdx2-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-sao4-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-sao4-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-sao4-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-sin3-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-sin3-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-sin3-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-sin3-3
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-sin3-3
+  name: teleport.zip-prod.appsulate.com-capi-prod-sin3-3
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-syd4-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-syd4-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-syd4-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-tlv1-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-tlv1-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-tlv1-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-tyo3-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-tyo3-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-tyo3-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-was2-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-was2-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-was2-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: capi-prod-zrh1-1
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-capi-prod-zrh1-1
+  name: teleport.zip-prod.appsulate.com-capi-prod-zrh1-1
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: prod-tools
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-prod-tools
+  name: teleport.zip-prod.appsulate.com-prod-tools
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: prod-tools-pdx
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-prod-tools-pdx
+  name: teleport.zip-prod.appsulate.com-prod-tools-pdx
+- context:
+    cluster: teleport.zip-prod.appsulate.com
+    extensions:
+    - extension: us1-cbi-eks-prod
+      name: teleport.kube.name
+    user: teleport.zip-prod.appsulate.com-us1-cbi-eks-prod
+  name: teleport.zip-prod.appsulate.com-us1-cbi-eks-prod
+- context:
+    cluster: tpt.cbi.appsulate.com
+    extensions:
+    - extension: cbi-dev-bom5-1
+      name: teleport.kube.name
+    user: tpt.cbi.appsulate.com-cbi-dev-bom5-1
+  name: tpt.cbi.appsulate.com-cbi-dev-bom5-1
+- context:
+    cluster: tpt.cbi.appsulate.com
+    extensions:
+    - extension: cbi-dev-fra5-1
+      name: teleport.kube.name
+    namespace: vcluster-test
+    user: tpt.cbi.appsulate.com-cbi-dev-fra5-1
+  name: tpt.cbi.appsulate.com-cbi-dev-fra5-1
+- context:
+    cluster: tpt.cbi.appsulate.com
+    extensions:
+    - extension: cbi-dev-tools-fra
+      name: teleport.kube.name
+    namespace: argocd
+    user: tpt.cbi.appsulate.com-cbi-dev-tools-fra
+  name: tpt.cbi.appsulate.com-cbi-dev-tools-fra
+- context:
+    cluster: tpt.cbi.appsulate.com
+    extensions:
+    - extension: cbi-mod-dev-pdx2-1
+      name: teleport.kube.name
+    user: tpt.cbi.appsulate.com-cbi-mod-dev-pdx2-1
+  name: tpt.cbi.appsulate.com-cbi-mod-dev-pdx2-1
+- context:
+    cluster: tpt.cbi.gethopi.com
+    extensions:
+    - extension: cbi-mod-stg-pdx2-1
+      name: teleport.kube.name
+    user: tpt.cbi.gethopi.com-cbi-mod-stg-pdx2-1
+  name: tpt.cbi.gethopi.com-cbi-mod-stg-pdx2-1
+- context:
+    cluster: tpt.cbi.gethopi.com
+    extensions:
+    - extension: cbi-mod-stg-tools-pdx
+      name: teleport.kube.name
+    user: tpt.cbi.gethopi.com-cbi-mod-stg-tools-pdx
+  name: tpt.cbi.gethopi.com-cbi-mod-stg-tools-pdx
+- context:
+    cluster: tpt.cbi.gethopi.com
+    extensions:
+    - extension: cbi-stg-fra5-1
+      name: teleport.kube.name
+    namespace: nginx
+    user: tpt.cbi.gethopi.com-cbi-stg-fra5-1
+  name: tpt.cbi.gethopi.com-cbi-stg-fra5-1
+- context:
+    cluster: tpt.cbi.gethopi.com
+    extensions:
+    - extension: cbi-stg-fra5-2
+      name: teleport.kube.name
+    user: tpt.cbi.gethopi.com-cbi-stg-fra5-2
+  name: tpt.cbi.gethopi.com-cbi-stg-fra5-2
+current-context: tpt.cbi.appsulate.com-cbi-dev-fra5-1
+kind: Config
+users:
+- name: kind-kind
+  user:
+    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJRERiVEloZjRGYmt3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRFd016QXhOREEyTlRkYUZ3MHlOakV3TXpBeE5ERXhOVGRhTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFDd2ZEa24KVDluTEoxV3ZDRFNEY0FzelNjNWhhdG41OGJMTHhJK3QvQ3hDQzVIeTg3TGV3VW5Eb2IxaEtlck9rcE8rU3pCVwpkd2t1M2pmWUJaSjN2K2NyaVN2V3FabFVyTXdLNitCR3JDN1BIMS9QMmJzRHVPb1lwK1JyejBGYXlSeUluWW5tCkVpcHdLYTUrVkNKQk1EdlA1aFVRcWlqdXN0Wk9FZWRyN21aNzVUV2lBVkRsZWZRMkZRRXczQkRtQjFiSHloRE8KS1prbGJaV3ppZUg0c1lscnJxWW1FYWwyb3lpc2VISlJiYTh6ZEorVHkvMHd2aFlaTzArZVhlai8wOEZtZldSYQpVSU9sNHNyRER4czZHcVY3OEh0WVZSUFRkYjF2OW54VE9SVlZ0Ym1NYTFlZ1EvNXRlTmk2SFlVMkVBTnRoUStvCkM3YXo1a3RHY2tUc1paR1pBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkxaRVoyQktLN2M0L3UyNwptbjdJQTkwTnlDcklNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUNjdXgrMUU3bEd3aGNCbXBqZWV5cU0veGdyCnlJUjRwZkhpRXg2MFJoRkhZZnFnL1lzRzVTMVljYUpBM3A2K000a05DVnNULzBxNXdRa21rSmJmazQwakhXMFYKTTZuQVZDcFp4d25uL0tjaUU4RjB3ZUY3NHlHcTVXMEN4SFVYdFlLYy9ZMDM0MTQ0dldnTWxmSXpaK0svUm9ESAplakxyY3BxS0I3VmhMQWI1eC9ZZVRGV2FjMmI2SVhCUjVzeUFJa3A1cWUxSnlBM0FMMTFwSkRQZXRKZXhtK0Z4Cmk1LzBKL3ZiYS9oZ3Q4ZHg5Tm1TMW5LRFJNbnYvWGhwRE16elloTk9qNCsvNlpZYy9XV25ROG1ocjh1eGlZemEKdkpzajNCbEtNVU1TemYxQlZsaFc4UDJJNGxhNElZbFYxS1JCUlJSb2FiNWhGR3ZwckhkSVY0V283dE4xCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb2dJQkFBS0NBUUVBc0h3NUowL1p5eWRWcndnMGczQUxNMG5PWVdyWitmR3l5OFNQcmZ3c1FndVI4dk95CjNzRkp3Nkc5WVNucXpwS1R2a3N3Vm5jSkx0NDMyQVdTZDcvbks0a3IxcW1aVkt6TUN1dmdScXd1eng5Zno5bTcKQTdqcUdLZmthODlCV3NrY2lKMko1aElxY0NtdWZsUWlRVEE3eitZVkVLb283ckxXVGhIbmErNW1lK1Uxb2dGUQo1WG4wTmhVQk1Od1E1Z2RXeDhvUXppbVpKVzJWczRuaCtMR0phNjZtSmhHcGRxTW9ySGh5VVcydk0zU2ZrOHY5Ck1MNFdHVHRQbmwzby85UEJabjFrV2xDRHBlTEt3dzhiT2hxbGUvQjdXRlVUMDNXOWIvWjhVemtWVmJXNWpHdFgKb0VQK2JYall1aDJGTmhBRGJZVVBxQXUycytaTFJuSkU3R1dSbVFJREFRQUJBb0lCQURYVUhjYU14MXY4U2xrUgpncHJZVU1JNjc3U3MxNEV4cEJ3Y2ZzcE5VTjV3RXZyc001RlhtUDBQVnVqTTFTNWViS3VzMlRoMkpCbmtjMW56CkVTSnZLTDRSbjRwZ3ZrQ2lWN1c1RGZYZ1RJS21DaDRtUmJFejlFckM0cHV6WWphamdvMTBwM3ZCN0ttN1BOcVIKSk1XSFJhYjZnVkJNNWlFdjhNZHRGSTNKNy80M2dDNnc1U1dTUCt1OGV0Rk9LTk9YZ1VndFEwT25XTTR3WUxveAp2aU1mSUdPM2dXT3F1MGxVaXh3eVlDVVk0R015UFhEcUxVTUQyajNveHNpeWQ3SGJwSFBBNGY5VUtsZ1RBbU5OCmRUR1VnOHRuVTdOb0hQb3RVS2swMm1icTdPbC9Tcmg1UUI1eEhmbnpjZm9yZGJIZ0h3QTdNL1JRM05Dd0xBK1cKNVB5KzQvVUNnWUVBelNXR3N1djBFcmplMlBtVktwL2V3ZEpIY0c3RjgzL0NhRVhHNGtTUTZqeUtGVDNwRWxEegpvUEdLRXl4SENMby9ZejhNUExaWmpuNi9BN24rUzJCS05DWkxEMlFFMXJoYlh6dDQ1b3R2ajdaRzhjR0xPRVl1Cm5VaTg5Sy9IZWxEWkU4MkVqVS8raU1EbWdOYWxBa0swZ1A0L0dLVzl6cG9zWElHRkJnaSs1YnNDZ1lFQTNEdmQKejBubEdFcG1uK25PdENhRldFdlBXUW5YMmpBRlU4cVV4aU5BTW90RDUwME5CNzcyYVZydnBlS2E5U2kxS0RXTwpVOFQ2dlgraEFWL29NcVJNRmplUGRJRE5QRm5TSVdLNjVFRHFhVHlXUDZ1UVhLU2xuamdWdzhpRUZwbi9VRFhoCkcvTVkyTzJHQ1dMbExsZk9NcnRld2NhNmNkVk1aYkxSY20zdUpyc0NnWUF6SzRnVXV3d3ZXMU9pdFdhQ3NrdmkKOXF1QkhQQmRVMkhQbHBBTVFtUVBPVGlNSWR3d0NHY3Nudkw4NDA5NG10UlMwaGdnVUsrMy9sOXc4NFM5a25BUAozL2xiQm15NmpsT2tSblphc3k4Sm5zTEZiS3hvUmdFOGxEY2xwVzdSVUxkRTNEK1M3QUFtWms5WWxiR2xCYlIyCmRIU1Nsa3pvNnNYajhSNllLYmhNSHdLQmdBZTNNVFlwNkpUSlJuOGp1ZElsNTFZSWtlTVVyVE0vcTNBY0VNcEEKUWVlRGFZV1k5WFBvQk1uOEhaazZMeU9Yb1lFZkh6VmdHVWk2Ui9HOFltNGp3MmFqMjZyQk9HOTgxaGZGVmJiWgpiMXp3ZW5NUWw2WW5Qb1lrZ042ekQ2MmJCNDdQMUdzZVFTaVlhYkc2ZlR6NlpvYndlWWxnWlBmSCtUMDIzbytiCnVsUXhBb0dBUHI2eC9LMDJ0QlRMZ2h0R0VoYk1jWkpIM3NGVDNDMFp3cnZBRnMxaFYrc3ZkQnBhRkRHOWZwUkwKRXVreGxucU8vVHNxYXFPYTBqYmNHc2hSYlc3ellwQzJUb0Y5WFA2Nkw1MEhkbFpnUHh1MVovK2s4cnQ0ZnBIaQpXS2kwRVlMZURoSUtXS0JMWjVSSmRFTkNnVG9zdjdxL2IrRkI4b2xWMzE2WC9xVHFnb1E9Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
+- name: orbstack
+  user:
+    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJrVENDQVRlZ0F3SUJBZ0lJYTJvM25YVlVzSDR3Q2dZSUtvWkl6ajBFQXdJd0l6RWhNQjhHQTFVRUF3d1kKYXpOekxXTnNhV1Z1ZEMxallVQXhOekE0TlRBek16YzJNQjRYRFRJME1ESXlNVEE0TVRZeE5sb1hEVEkyTVRBegpNREV6TkRrMU5sb3dNREVYTUJVR0ExVUVDaE1PYzNsemRHVnRPbTFoYzNSbGNuTXhGVEFUQmdOVkJBTVRESE41CmMzUmxiVHBoWkcxcGJqQlpNQk1HQnlxR1NNNDlBZ0VHQ0NxR1NNNDlBd0VIQTBJQUJId1h0NVZvMmRVbkxha08KZWZDZ2FhWi9hOHF4T3pFV0psejMwanZxZlM1UDlXL0Q3akkxZHdSRm1lWkdJbzcxSzVUbVVxcllNMEVkMVBqVApYWng3blBTalNEQkdNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUtCZ2dyQmdFRkJRY0RBakFmCkJnTlZIU01FR0RBV2dCU0xnTUJyNVk5T0lWNGIyQmcrcVFWZjc4bm9QREFLQmdncWhrak9QUVFEQWdOSUFEQkYKQWlFQXFnY0lqZzdIRENDWXVuc3JuQmZSSkUySllvc3UzNTM3NTVqYXRGVFBVU0lDSUVXU2ZzcEdDb0loSG1WdApFWWt1K2t2UHFFeVQ5bmlVeXVOUWRJZE9yRS83Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0KLS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJlRENDQVIyZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWpNU0V3SHdZRFZRUUREQmhyTTNNdFkyeHAKWlc1MExXTmhRREUzTURnMU1ETXpOell3SGhjTk1qUXdNakl4TURneE5qRTJXaGNOTXpRd01qRTRNRGd4TmpFMgpXakFqTVNFd0h3WURWUVFEREJock0zTXRZMnhwWlc1MExXTmhRREUzTURnMU1ETXpOell3V1RBVEJnY3Foa2pPClBRSUJCZ2dxaGtqT1BRTUJCd05DQUFTNVo1eFdPNy9Ld3g1SVE1OHh1Um9kZy9FeDZGRTVQSWhnakVUM2hOeXMKUC9hS0RKQ2VHLzIwNEFhRkZ5TVhhQkRidDI1VkRzRk4wVnVFVEh6SDdoYmdvMEl3UURBT0JnTlZIUThCQWY4RQpCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVWk0REFhK1dQVGlGZUc5Z1lQcWtGClgrL0o2RHd3Q2dZSUtvWkl6ajBFQXdJRFNRQXdSZ0loQUpKME1CV1ZKOW91RFVkS1ZlQUJLSE5KMmhnaks2dnIKcThpaTRyd1A2ay9OQWlFQWt6M2luQ2t3SEhuNDk2SnAvbGZSTTgwaEV5alpMOGIwZndzOTRKd2ZnZGM9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    client-key-data: LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUVpdHdTSGxXTGtNTkV6bVl1M0lXVHgxaS8yeTEzcGRsUHdWMHJ0WUJ1RVpvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFZkJlM2xXaloxU2N0cVE1NThLQnBwbjlyeXJFN01SWW1YUGZTTytwOUxrLzFiOFB1TWpWMwpCRVdaNWtZaWp2VXJsT1pTcXRnelFSM1UrTk5kbkh1YzlBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQo=
+- name: teleport.zip-dev.appsulate.com-capi-dev-bom5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-dev-bom5-1
+      - --teleport-cluster=teleport.zip-dev.appsulate.com
+      - --proxy=teleport.zip-dev.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-dev.appsulate.com-capi-dev-fra5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-dev-fra5-1
+      - --teleport-cluster=teleport.zip-dev.appsulate.com
+      - --proxy=teleport.zip-dev.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-dev.appsulate.com-capi-stg-bom5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-stg-bom5-1
+      - --teleport-cluster=teleport.zip-dev.appsulate.com
+      - --proxy=teleport.zip-dev.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-dev.appsulate.com-capi-stg-fra5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-stg-fra5-1
+      - --teleport-cluster=teleport.zip-dev.appsulate.com
+      - --proxy=teleport.zip-dev.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-dev.appsulate.com-dev-tools-pdx
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=dev-tools-pdx
+      - --teleport-cluster=teleport.zip-dev.appsulate.com
+      - --proxy=teleport.zip-dev.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-dev.appsulate.com-tools
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=tools
+      - --teleport-cluster=teleport.zip-dev.appsulate.com
+      - --proxy=teleport.zip-dev.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-bom5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-bom5-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-bom5-3
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-bom5-3
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-bom5-5
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-bom5-5
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-bom5-7
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-bom5-7
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-cle2-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-cle2-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-cpt4-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-cpt4-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-dxb1-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-dxb1-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-fra5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-fra5-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-hkg3-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-hkg3-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-hyd2-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-hyd2-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-hyd2-3
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-hyd2-3
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-hyd2-5
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-hyd2-5
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-lon4-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-lon4-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-mel2-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-mel2-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-osa1-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-osa1-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-par3-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-par3-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-pdx2-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-pdx2-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-sao4-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-sao4-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-sin3-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-sin3-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-sin3-3
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-sin3-3
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-syd4-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-syd4-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-tlv1-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-tlv1-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-tyo3-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-tyo3-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-was2-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-was2-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-capi-prod-zrh1-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=capi-prod-zrh1-1
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-prod-tools
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=prod-tools
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-prod-tools-pdx
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=prod-tools-pdx
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: teleport.zip-prod.appsulate.com-us1-cbi-eks-prod
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=us1-cbi-eks-prod
+      - --teleport-cluster=teleport.zip-prod.appsulate.com
+      - --proxy=teleport.zip-prod.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tpt.cbi.appsulate.com-cbi-dev-bom5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=cbi-dev-bom5-1
+      - --teleport-cluster=tpt.cbi.appsulate.com
+      - --proxy=tpt.cbi.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tpt.cbi.appsulate.com-cbi-dev-fra5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=cbi-dev-fra5-1
+      - --teleport-cluster=tpt.cbi.appsulate.com
+      - --proxy=tpt.cbi.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tpt.cbi.appsulate.com-cbi-dev-tools-fra
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=cbi-dev-tools-fra
+      - --teleport-cluster=tpt.cbi.appsulate.com
+      - --proxy=tpt.cbi.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tpt.cbi.appsulate.com-cbi-mod-dev-pdx2-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=cbi-mod-dev-pdx2-1
+      - --teleport-cluster=tpt.cbi.appsulate.com
+      - --proxy=tpt.cbi.appsulate.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tpt.cbi.gethopi.com-cbi-mod-stg-pdx2-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=cbi-mod-stg-pdx2-1
+      - --teleport-cluster=tpt.cbi.gethopi.com
+      - --proxy=tpt.cbi.gethopi.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tpt.cbi.gethopi.com-cbi-mod-stg-tools-pdx
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=cbi-mod-stg-tools-pdx
+      - --teleport-cluster=tpt.cbi.gethopi.com
+      - --proxy=tpt.cbi.gethopi.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tpt.cbi.gethopi.com-cbi-stg-fra5-1
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=cbi-stg-fra5-1
+      - --teleport-cluster=tpt.cbi.gethopi.com
+      - --proxy=tpt.cbi.gethopi.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: tpt.cbi.gethopi.com-cbi-stg-fra5-2
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - kube
+      - credentials
+      - --kube-cluster=cbi-stg-fra5-2
+      - --teleport-cluster=tpt.cbi.gethopi.com
+      - --proxy=tpt.cbi.gethopi.com:443
+      command: /usr/local/bin/tsh
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
