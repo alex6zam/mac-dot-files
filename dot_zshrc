@@ -318,6 +318,14 @@ alias kdelj='kubectl delete job'
 alias jira-backlog="jira issue list -q \"(labels in (cbi-team-polaris)) AND status NOT in ('Done', 'Rejected', 'Dev Done', 'Resolved', 'Won\'t Fix','Cancelled') AND type not in ('Epic','CBI Release','Production Change')\" --order-by status"
 alias jira-triage="jira issue list -q \"labels in (ready-for-triage) AND status NOT in ('Done', 'Rejected', 'Won\'t Fix')\" --order-by status"
 
+alias jtowork='cd $(find ~/Work -type d | fzf)'
+alias jtogit='cd $(find ~/Work/git-repos -type d | fzf)'
+alias jtobitbucket='cd $(find ~/Work/git-repos/Bitbucket -type d | fzf)'
+alias killp='kill $(ps aux | fzf -m | awk '{print $2}')'
+alias jump='cd $(find ~/ -type d | fzf)'
+alias checkout='git checkout $(git branch | fzf )'
+
+
 #######################################################################
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
@@ -328,8 +336,6 @@ fi
 
 export STARSHIP_CONFIG=$HOME/.config/starship.toml
 eval "$(starship init zsh)"
-
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 ############################## ZINIT ##############################
 source "${HOME}/.zinit/bin/zinit.zsh"
@@ -395,3 +401,5 @@ aws-profile() {
 eval "$(atuin init zsh)"
 
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
+
+eval "$(zoxide init zsh)"

@@ -166,4 +166,16 @@ return {
     ---@type render.md.UserConfig
     opts = {},
   },
+
+  -- colorschema
+  {
+    "nyoom-engineering/oxocarbon.nvim"
+  },
+  {
+      "qvalentin/helm-ls.nvim",
+      ft = "helm",
+      opts = {
+          -- leave empty or see below
+      },
+  },
 }
